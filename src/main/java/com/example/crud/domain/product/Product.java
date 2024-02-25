@@ -23,6 +23,12 @@ public class Product {
         this.name = data.name();
         this.price_in_cents = data.price_in_cents();
     }
+
+    public ResponseProductDTO getResponse(){
+        return new ResponseProductDTO(
+                this.getName(), this.getPrice_in_cents()
+        );
+    }
 }
 
 
