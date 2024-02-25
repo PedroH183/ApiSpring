@@ -12,7 +12,7 @@
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MiniApi</name>
-	<description>MiniApi de estudo.</description>
+	<description>MiniApi de exemplo de um CRUD básico utilizando o Spring.</description>
 	<properties>
 		<java.version>21</java.version>
 	</properties>
@@ -50,6 +50,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 	</dependencies>
 
