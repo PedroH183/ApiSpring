@@ -43,8 +43,8 @@ POST /product/add - Create a new product
 **BODY**
 ```json
 {
-	"name" : "Lâmpada",
-	"price_in_cents" : 2020
+    "name" : "Lâmpada",
+    "price_in_cents" : 2020
 }
 ```
 <hr/>
@@ -57,8 +57,8 @@ PUT /product/edit/<ID_PRODUCT> - Update a product
 **BODY**
 ```json
 {
-	"name" : "Mesa",
-	"price_in_cents" : 2020
+    "name" : "Mesa",
+    "price_in_cents" : 2020
 }
 ```
 
